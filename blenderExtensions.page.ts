@@ -5,6 +5,7 @@ export class BlenderExtensionsPage {
 
 
   readonly mainHeading: Locator;
+  readonly searchInput: Locator;
   readonly footer: Locator;
   readonly aboutFooterHeading: Locator;
   readonly privacyPolicyFooterLink: Locator;
@@ -13,6 +14,7 @@ export class BlenderExtensionsPage {
     this.page = page;
 
     this.mainHeading = page.getByRole('heading', { name: 'Blender Extensions' });
+    this.searchInput = page.getByRole('textbox', { name: 'Search' });
 
 
     this.footer = page.locator('footer');

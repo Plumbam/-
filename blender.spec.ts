@@ -20,4 +20,10 @@ test.describe('Blender Extensions — 10 элементов (одно окно �
     await expect(po.mainHeading).toBeVisible();
   });
 
+  test('2. Поле поиска с подсказкой "Search..."', async () => {
+    await expect(po.searchInput).toBeVisible();
+    await expect(po.searchInput).toBeEditable();
+    await expect(po.searchInput).toHaveAttribute('placeholder', 'Search...');
+  });
+
 });
