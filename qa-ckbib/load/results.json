@@ -1,0 +1,88 @@
+{
+  "base": "https://www.ckbib.ru",
+  "duration": 20,
+  "criteria": {
+    "MAX_P90_MS": 3000,
+    "MAX_ERROR_RATE": 0.01
+  },
+  "results": [
+    {
+      "page": "/",
+      "connections": 1,
+      "requests": 110,
+      "rps": 5.5,
+      "p50": 176,
+      "p90": 182,
+      "p99": 195,
+      "max": 621,
+      "errors": 0,
+      "errorRate": 0,
+      "passed": true
+    },
+    {
+      "page": "/",
+      "connections": 5,
+      "requests": 537,
+      "rps": 26.9,
+      "p50": 179,
+      "p90": 197,
+      "p99": 629,
+      "max": 1423,
+      "errors": 0,
+      "errorRate": 0,
+      "passed": true
+    },
+    {
+      "page": "/",
+      "connections": 10,
+      "requests": 1122,
+      "rps": 56.1,
+      "p50": 165,
+      "p90": 199,
+      "p99": 287,
+      "max": 1430,
+      "errors": 0,
+      "errorRate": 0,
+      "passed": true
+    },
+    {
+      "page": "/bibliotekam",
+      "connections": 1,
+      "requests": 104,
+      "rps": 5.2,
+      "p50": 186,
+      "p90": 197,
+      "p99": 235,
+      "max": 650,
+      "errors": 0,
+      "errorRate": 0,
+      "passed": true
+    },
+    {
+      "page": "/bibliotekam",
+      "connections": 5,
+      "requests": 488,
+      "rps": 24.4,
+      "p50": 192,
+      "p90": 249,
+      "p99": 652,
+      "max": 717,
+      "errors": 0,
+      "errorRate": 0,
+      "passed": true
+    },
+    {
+      "page": "/bibliotekam",
+      "connections": 10,
+      "requests": 1029,
+      "rps": 51.5,
+      "p50": 186,
+      "p90": 206,
+      "p99": 336,
+      "max": 867,
+      "errors": 0,
+      "errorRate": 0,
+      "passed": true
+    }
+  ]
+}
